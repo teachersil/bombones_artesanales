@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+/*todo mi cuerpo HTML*/
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color: blanchedalmond;
+    background-image: url("/Imagenes/chocolate.jpg");
+}
+
+/*Mi header*/
+.header{
+    padding: 30px;
+    text-align: center;
+    background: wheat;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+/*Barra de navegacion*/ 
+.nav{
+    background-color: beige;
+
+}
+
+/*Mis links de la barra de navegacion*/
+.nav a{
+    color: aquamarine;
+    text-align: left;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/*Mi footer*/
+.footer{
+    background-color: bisque;
+    text-align: center;
+    color: brown;
+    padding: 20px;
+    margin-top: 50px;
+}
