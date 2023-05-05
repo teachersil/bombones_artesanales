@@ -35,7 +35,7 @@ body{
 }
 
 /*Mi footer*/
-.footer{
+.footer p{
     background-color: bisque;
     text-align: center;
     color: brown;
