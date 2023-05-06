@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 /*todo mi cuerpo HTML*/
-body{
+.body{
     font-family: Arial;
     padding: 10px;
     background-color: blanchedalmond;
     background-image: url("/Imagenes/chocolate.jpg");
-}
+    }
 
 /*Mi header*/
 .header{
@@ -35,10 +35,19 @@ body{
 }
 
 /*Mi footer*/
-.footer p{
+.footer {
     background-color: bisque;
     text-align: center;
     color: brown;
     padding: 20px;
     margin-top: 50px;
+}
+
+/*color a los dias del horario y tamaño horarios*/
+.th{
+    color: brown; font-size: large;
+}
+
+.td{
+    color: brown;font-size: small;
 }
