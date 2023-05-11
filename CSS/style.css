@@ -28,26 +28,22 @@
 
 /*Mis links de la barra de navegacion*/
 .nav a{
-    color: aquamarine;
+    color: rgb(186, 89, 250);
     text-align: left;
     text-decoration: none;
     padding: 14px 16px;
 }
 
+.border{
+    border-color: rgb(250, 80, 19);
+    text-align: center;
+}
+
 /*Mi footer*/
-.footer {
+.footer{
     background-color: bisque;
     text-align: center;
     color: brown;
     padding: 20px;
     margin-top: 50px;
-}
-
-/*color a los dias del horario y tamaño horarios*/
-.th{
-    color: brown; font-size: large;
-}
-
-.td{
-    color: brown;font-size: small;
 }
