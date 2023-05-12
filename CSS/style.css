@@ -1,5 +1,8 @@
 *{
+    margin: 10px ;
+    padding: 10px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*todo mi cuerpo HTML*/
 .body{
@@ -14,29 +17,8 @@
     padding: 30px;
     text-align: center;
     background: wheat;
-}
-
-.header h1{
-    font-size: 50px;
-}
-
-/*Barra de navegacion*/ 
-.nav{
-    background-color: beige;
-
-}
-
-/*Mis links de la barra de navegacion*/
-.nav a{
-    color: rgb(186, 89, 250);
-    text-align: left;
-    text-decoration: none;
-    padding: 14px 16px;
-}
-
-.border{
-    border-color: rgb(250, 80, 19);
-    text-align: center;
+    height: 500px;
+    border: 2px saddlebrown;
 }
 
 /*Mi footer*/
@@ -46,4 +28,15 @@
     color: brown;
     padding: 20px;
     margin-top: 50px;
+    border-width: 400px ;
+    height: 150px;
+}
+
+/*borde del formulario*/
+.contact_form{
+    border: 2px solid black;
+    border-style: dotted;
+    border-color: chocolate;
+    border-width: medium;
+    background-color: beige;
 }
