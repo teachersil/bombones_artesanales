@@ -21,6 +21,21 @@
     border: 2px saddlebrown;
 }
 
+/*Mi nav*/
+.topnav{
+    overflow: hidden;
+    background-color: brown;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /*Mi footer*/
 .footer{
     background-color: bisque;
