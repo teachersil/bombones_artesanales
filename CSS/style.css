@@ -36,6 +36,14 @@
     text-decoration: none;
 }
 
+/*Aside*/
+.aside{
+    float: right;
+    width: 300px;
+    text-align: center;
+    background-color: bisque;
+}
+
 /*Mi footer*/
 .footer{
     background-color: bisque;

@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+}
+
+.grid{
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.box{
+    background-color: peachpuff;
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+@media (min-width:780px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid: :first-child{
+        grid-column-end: span 2;
+    }
+}
